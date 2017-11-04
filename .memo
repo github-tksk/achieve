@@ -1,0 +1,26 @@
+
+サーバ起動
+rails s -b $IP -p $PORT
+
+sudo service postgresql start
+
+rake routes
+
+rake db:create
+rake db:migrate
+rake db:rollback
+rake db:migrate:reset
+
+heroku-url
+https://stormy-escarpment-31839.herokuapp.com/
+
+heroku
+app76740511@heroku.com
+zezs6gn63650
+
+git add -A
+git commit -m "xxx"
+
+git remote -v
+git push origin master
+git push heroku master
